@@ -1,0 +1,36 @@
+table{
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+table th{
+    width: 8em;
+}
+table td{
+    text-align: center;
+}
+#recreo{
+    background-color: yellow;
+}
+#lm{
+    background-color: coral;
+}
+#fol{
+    background-color: green;
+}
+#ent{
+    background-color: blue;
+}
+#si{
+    background-color:lightblue;
+}
+#bbdd{
+    background-color: orange;
+}
+#pro{
+    background-color: violet;
+}
+
+
+

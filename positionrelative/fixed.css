@@ -1,0 +1,12 @@
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    position: fixed;
+}
+
+.rectangulo{
+    width: 200px;
+    height: 500px;
+    background-color: brown;
+}

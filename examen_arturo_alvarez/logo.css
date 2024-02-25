@@ -1,0 +1,14 @@
+.logo{
+margin: 50px;
+animation-name: "mover";
+animation-duration: initial;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+
+@keyframes mover{
+    {0% margin-left: 0px, margin-right: 500px}
+    
+
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: black;
+    background-color: beige;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedorgrid{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedorgrid > div,
+.contenedorgrid .header,
+.contenedorgrid .sidebar,
+.contenedorgrid .footer,
+.contenedorgrid .contenido {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contenedorgrid .header{
+    background-color: lightcoral;
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.contenedorgrid .contenido{
+    grid-column: span 2;
+}
+
+.contenedorgrid .sidebar{
+    grid-column: 3 / 4;
+    background-color: blueviolet;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: 2 / 4;
+}
+
+.contenedorgrid .widget-1,
+.contenedorgrid .widget-2{
+    background-color: greenyellow;
+    color: white;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorgrid .footer{
+    background-color: orange;
+    color: white;
+    grid-column: span 3;
+}
+
+@media screen and (max-width:768px) {
+    body{
+        background-color: black;
+    }
+    .contenedorgrid .contenido{
+        grid-column: 1 / -1;
+    }
+    .contenedorgrid .sidebar{
+        grid-column: 1 / -1;
+    }
+    .contenedorgrid .widget-2{
+        grid-column: span 2;
+    }
+}

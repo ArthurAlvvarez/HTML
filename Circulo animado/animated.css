@@ -1,0 +1,26 @@
+#circulo{
+    margin-top: 60px;
+    margin-left: 60px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: mover;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate, normal;
+}
+
+@keyframes mover{
+    0%{
+
+        top: 0px;
+    }
+    100%{
+        top: 500px;
+        
+    }
+}

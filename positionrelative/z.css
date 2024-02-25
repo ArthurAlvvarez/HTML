@@ -1,0 +1,16 @@
+.contenedor1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    z-index: 1;
+
+}
+
+.contenedor2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    
+}

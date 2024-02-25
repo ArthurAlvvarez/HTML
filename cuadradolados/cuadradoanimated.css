@@ -1,0 +1,47 @@
+#cuadrado{
+    margin-top: 60px;
+    margin-left: 60px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: mover, girar;
+    animation-duration: 3s, 1s;
+    animation-timing-function: linear;
+    animation-iteration-count:2, infinite;
+    animation-delay: 1s;
+    animation-direction: alternate, normal;
+}
+
+@keyframes mover{
+    0%{
+
+        left: 0px;
+    }
+    25%{
+        background-color: red;
+        left: 200px;
+        top:0px;
+    }
+    50%{
+        top: 200px;
+        left: 200px;
+    }
+    75%{
+        left: 0px;
+        right: 200px;
+        top: 200px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+}
+/*@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

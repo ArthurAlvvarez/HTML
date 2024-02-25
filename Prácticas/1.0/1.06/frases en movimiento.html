@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> <link rel="stylesheet" href="frasesenmovimiento.css">
+<body>
+    <h2>El texto se deslizará de derecha a izquierda y luego se detendrá.</h2>
+    <marquee behavior="slide" direction="left">Buena tardes</marquee>
+    <h2>El texto se deslizará de derecha a izquierda y cada vez que llegue al final comenzará de nuevo en un bucle
+        infinito.</h2>
+    <marquee behavior="scroll" direction="left">Buenas tardes</marquee>
+    <h2>El texto se deslizará de izquierda a derecha y cada vez que llegue al final comenzará de nuevo en un bucle
+        infinito</h2>
+    <marquee behavior="scroll" direction="right">Hola, &nbsp;&nbsp;&nbsp;&nbsp; hola, &nbsp;&nbsp;&nbsp;&nbsp;hola</marquee>
+    <h2>El texto se desplazará hacia arriba de forma continua</h2>
+    <marquee behavior="scroll" direction="up">Hola Don Pepito</marquee>
+    <h2>El texto se desplazara hacia abajo de forma continua</h2>
+    <marquee behavior="scroll" direction="down">Hola Don José</marquee>
+    <h2>El texto pasara lentamente por la pantalla</h2>
+    <marquee behavior="scroll" direction="right" scrolldelay="400">¿Pasó usted por mi casa? </marquee>
+    <h2>el texto avanza con más rapidez por la pantalla</h2>
+    <marquee behavior="scroll" direction="right" scrolldelay="600" scrollamount="100">Por su casa yo pasé</marquee>
+    <h2>El texto permanece en la pantalla y rebota en los lados</h2>
+    <marquee behavior="alternate" direction="left">Lenguaje de Marcas es lo mejor</marquee>
+    <h2>El texto rebotará en los lados de la pantalla aceleradamente</h2>
+    <marquee behavior="alternate" direction="left" scrollamount="100">Adiós, adiós, adiós...</marquee>
+    <h2>Mis redes sociales favoritas</h2>
+    <marquee behavior="scroll" direction="right" scrollamount="10">Instagram</marquee>
+    <marquee behavior="scroll" direction="right" scrollamount="5">Youtube</marquee>
+    <marquee behavior="scroll" direction="right" scrollamount="1">Twitter</marquee>
+    <marquee behavior="scroll" direction="right" scrollamount="20">Pinterest</marquee>
+    <marquee behavior="scroll" direction="right" scrollamount="100">Twitch</marquee>
+    <hr>
+    <h2>Texto en diagonal</h2>
+    <marquee behavior="scroll" direction="right">
+        <marquee behavior="scroll" direction="up">Parezco una pelota</marquee>
+        <div style="position:relative;height:520px;">
+            <marquee
+                style="z-index:2;position:absolute;left:275px;top:108px;font-family:Impact;font-size:44pt;color:lightgreen;height:420px;"
+                scrollamount="7" direction="down">HOLA</marquee>
+            <marquee
+                style="z-index:2;position:absolute;left:89px;top:54px;font-family:Impact;font-size:44pt;color:whitesmoke;height:366px;"
+                scrollamount="2" direction="down">ADIÓS</marquee>
+            <marquee
+                style="z-index:2;position:absolute;left:26px;top:72px;font-family:Impact;font-size:44pt;color:lightcoral;height:358px;"
+                scrollamount="1" direction="down">HELLO</marquee>
+            <marquee
+                style="z-index:2;position:absolute;left:3px;top:44px;font-family:Impact;font-size:44pt;color:white;height:130px;"
+                scrollamount="3" direction="down">BYE BYE</marquee>
+        </div>
+</body>
+</html>

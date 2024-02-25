@@ -1,0 +1,19 @@
+body{
+    background-size: cover;
+}
+
+img{
+    margin: 20px;
+
+}
+
+.juegos{
+    color: aliceblue;
+    display: flex;
+    background-color: black;
+}
+h2{
+    color: aliceblue;
+    padding: 30px;
+}
+

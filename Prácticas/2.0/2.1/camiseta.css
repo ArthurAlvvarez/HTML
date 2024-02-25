@@ -1,0 +1,12 @@
+.camiseta{
+    display: flex;
+    justify-content: center;
+}
+.iphone{
+    display: flex;
+    justify-content: center;
+}
+.portatil{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="etiquetas.css" rel="stylesheet">
+</head>
+<body>
+    
+    <h1>Ejemplo de etiquetas en Html</h1>
+    <h2>abbr</h2>
+    <p>La<abbr title="Organizacion de las Naciones Unidas">ONU</abbr>es una organizacion internacional fundada en 1945
+    </p>
+
+    <h2>acronym</h2>
+    <p><acronym title="Hypertext Markup Languaje">HTML</acronym> es el lengiaje de marcado utilizado para crear páginas web.
+    </p>
+
+    <h2>address</h2>
+    <address>
+        <p>Nombre de la compañia</p>
+        <p>Direccion: Calle Desengaño, 21</p>
+        <p>Ciudad: Madrid</p>
+        <p>Telefono: 91 222 31 13</p>
+        <p>Correo Electronico: info@gmail.com</p>
+    </address>
+
+    <h2>audio</h2>
+    <audio controls>
+        <source src="mi_audio.mp3" type="audio/mpeg">
+        Tu navegador no admite la reproduccion de audio.
+    </audio>
+
+    <h2>area y map</h2>
+    <img src="640px-Pikachu_SSBU.png" alt="Mapa Interactivo" width="500px" usemap="#mapa">
+    <map name="mapa">
+        <area shape="rect" coords="0,0,50,50" href="hhttps://www.hacheborras.es" alt="Área 1">
+        <area shape="circle" coords="100,100,30" href="hhttps://www.colegiolitterator.com" alt="Área 1">
+        <area shape="poly" coords="200,200,250,250,300,300" href="hhttps://www.hacheborras.es" alt="Área 1">
+    </map>
+
+    <h2>details</h2>
+    <details>
+        <summary>Detalles adicionales</summary>
+        <p>Esta es informacion adicional que puede estar oculta inicialmente y se muestra cuando el usuario hace
+            "Detalles adicionales".</p>
+    </details>
+
+    <h2>dfn</h2>
+    <p>La etiqueta <dfn>acm,ancnalkcmal,cmam,c zm,c zc c,acm alkcam</dfn></p>
+    <p><dfn>HTML</dfn>Hypertext</p>
+
+    <h2>fieldset y legend</h2>
+    <p>fielset agrupa elementos relacionados de un formulario, junto a legend mejora la imagen</p>
+    <form>
+        <fieldset>
+            <legend>Informacion personal</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre"><br>
+
+            <label for="email">Correo electronico</label>
+            <input type="email" name="email" id="email">
+        </fieldset>
+
+        <fieldset>
+            <legend>Opciones de sucripcion</legend>
+            <label for="suscripcion">Suscribirse a nuestro boletin</label>
+            <input type="checkbox" name="suscripcion" id="suscripcion"><br>
+
+        </fieldset>
+    </form>
+
+        <h2>figure y figcaption</h2>
+        <p>Poner pie de foto</p>
+        <figure>
+            <img src="640px-Pikachu_SSBU.png" alt="Pikachu contento" width="500px">
+            <figcaption>Pikachu contento</figcaption>
+        </figure>
+
+        <h2>optgroup</h2>
+        <p>Para guaradar un documento en la mayoría de los programas, presione <kbd>Ctrl</kbd>+<kbd>S</kbd>.</p>
+
+        <select>
+    <optgroup label = "Grupo 1">
+        <option value="opcion1">Opcion1</option>
+        <option value="opcion2">Opcion2</option>
+    </optgroup>
+    <optgroup label = "Grupo 2">
+        <option value="opcion3">Opcion3</option>
+        <option value="opcion4">Opcion4</option>
+    </optgroup>
+</select>
+
+<h2>pre</h2>
+<pre>
+    Este es un ejemplo
+</pre>
+
+<h2>video</h2>
+<video controls width="480" height="270" autoplay="no">
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.webm" type="video/webm">
+</video>
+
+</body>
+</html>
